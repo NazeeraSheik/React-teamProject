@@ -1,0 +1,38 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #f8f9fa;
+}
+a{
+    text-decoration: none;
+}
+.navbar-brand {
+    letter-spacing: 4px;
+    color: #f52d30;
+    font-style: bold;
+     
+  }
+  
+  .navbar-brand:hover {
+      color: #fa0c10;
+  }
+  
+  .navbar-scroll .nav-link,
+  .navbar-scroll .fa-bars {
+    color: #eb0c0c;
+  }
+  
+  .navbar-scrolled .nav-link,
+  .navbar-scrolled .fa-bars {
+    color: #7f4722;
+  }
+  
+  .navbar-scrolled {
+    background-color: #ffede7;
+  }
+
+  .nav-item{
+      margin-left:25px;
+      outline: none;
+     
+  }

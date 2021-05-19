@@ -1,38 +1,105 @@
-.App {
+*{
+  margin: 0;
+  padding: 0;
+}
+.header{
+  height: 8%;
+}
+
+.navbar-style{
+
+  box-shadow: 0 5px 10px #7e7879;
+  text-transform: uppercase; 
+}
+
+.logo{
+  height: 53px;
+  padding: 0px 0px;
+  position: relative;
+  animation-name: anime;
+  animation-duration: 10s;
+}
+@keyframes anime {
+  0%   {background-color:#F2EA02; left:0px; top:0px;}
+  25%  {background-color:#FF0099; left:500px; top:0px;}
+  50%   {background-color:#00FFFF; left:0px; top:0px;}
+  
+}
+.icon-bar{
+  background: darkblue;
+}
+li a{
+  color: #d90429;
+}
+
+body{
+background: #eee;   
+}
+.wrapper{
+width: 900px;
+margin: 5% auto;
+}
+.single-price{
+width: 33%;
+background: #262626;
+float: left;
+margin-top: 2%;
+box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.5);
+transition: 0.9s;
+}
+.price{
+  width: 120px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid#da4357;
+  margin: 5% auto 0 auto;
+  text-align: center ;
+}
+.deals{
+  margin-top: 10%;
+}
+.single-price h1{
   text-align: center;
+  font-size: 18px;
+  color: #fff;
+  line-height: 3;
+  text-transform: uppercase;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.price h2{
+  font-size: 20px;
+  color: #fff;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.deals h4{
+  font-size: 14px;
+  font-weight: normal;
+  text-align: center;
+  color: #fff;
+  line-height: 1;
 }
+.single-price:hover{
+  background: #da4357;
+  color: #fff;
+  box-shadow: 0 0 15px rgba(0,0 ,0 ,1 );
+   transform: scale(1.1);
+   z-index: 1;
+   border-radius: 25px;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
+.single-price:hover .price{
+  border-color: #fff;
 
-.App-link {
-  color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.single-price a{
+  text-decoration: none;
+  background: #da4357;
+  color: #fff;
+  padding: 10px 60px;
+  display: inline-block;
+margin: 10% auto;
+text-transform: uppercase;
+font-weight: bold;
+}
+.single-price:hover a{
+  background: #262626;
+  color: #fff;
 }

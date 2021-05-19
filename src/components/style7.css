@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+ 
+  .container11 {
+    background: #a08d8d;
+    height: 95vh;
+    width: 95%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+  }
+  .img {
+      margin: 3%;
+    height: 85%;
+    width: 32%;
+    background: url("https://images.jdmagicbox.com/comp/visakhapatnam/s5/0891px891.x891.181205125934.u6s5/catalogue/prowess-enterprise-india-pvt-ltd-siripuram-visakhapatnam-software-companies-ura20x4vl8.jpg?clr=")
+      no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .text {
+    width: 60%;
+    padding: 10px 10px;
+    position: absolute;
+    top: 40%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 20px;
+  }
+  .btn22 {
+    position: absolute;
+    top: 85%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    border: none;
+    outline: none;
+    font-family: Century Gothic;
+    background: rgb(223, 133, 223);
+    border-radius: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: large;
+    color: #ffffff;
+    width: 15%;
+    transition: 0.3s ease;
+  }
+  .btn22:hover {
+    background: #00a3e8;
+  }

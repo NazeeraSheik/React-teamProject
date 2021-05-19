@@ -1,0 +1,32 @@
+.footer {
+    background: black;
+    color: white;
+    height: 1000px;
+    width: 100%;
+    position: relative;
+  }
+  .footer .footer-content {
+    height: 900px;
+    display: flex;
+  }
+  .footer .footer-content .footer-section {
+    flex: 1;
+    padding: 50px;
+    color: rgb(228, 198, 228);
+  }
+  .footer .footer-bottom1 {
+    color: rgb(185, 181, 181);
+    height: 30px;
+    position: absolute;
+    bottom: 0px;
+    left: 50px;
+    padding-top: 20px;
+  }
+  .footer .footer-bottom2 {
+    color: rgb(185, 181, 181);
+    height: 30px;
+    position: absolute;
+    bottom: 0px;
+    right: 50px;
+    padding-top: 20px;
+  }

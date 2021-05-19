@@ -1,0 +1,9 @@
+p {
+    font-weight: 100;
+  }
+  .contact {
+    color: #fff;
+    font-family: sans-serif;
+    background-color: #142440 !important;
+    padding-bottom: 20px;
+  }
