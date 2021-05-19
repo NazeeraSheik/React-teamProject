@@ -12,18 +12,20 @@ import Aboutus from './components/Aboutus.jsx';
 
 function App() {
   return (
-    <BrowserRouter>
-    <Route path="/" exact strict component={Home}/>
+   
+    
+    <BrowserRouter basename={window.location.pathname || ''}>
+  <Route exact path="/React-teamProject" component={Home} />
+  <Route path="/" exact strict component={Home}/>
     <Route path="/Pricing" exact strict  component={Pricing}/>
     <Route path="/Cart" exact strict  component={Cart}/>
     <Route path="/Contactus" exact strict  component={Contactus}/>
     <Route path="/Login" exact strict  component={Login}/>
     <Route path="/Aboutus" exact strict  component={Aboutus}/>
-    
+</BrowserRouter>
     
 
-    </BrowserRouter>
-  );
+      );
 }
 
 export default App;
